@@ -1,3 +1,4 @@
+/*style for all element  */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@ body {
     margin: 0 auto;
     padding: 0 10px;
 }
-
+/*left side bar  */
 .sidebar {
     border-right: 1px solid var(--twitter-background);
     flex: 0.2;
@@ -21,6 +22,7 @@ body {
     margin-top: 20px;
     padding: 0 20px;
 }
+/*left side symbols  */
 
 .sidebar-option {
     display: flex;
@@ -28,18 +30,18 @@ body {
     cursor: pointer;
     padding: 10px 0;
 }
-
+/*twtr symbl  */
 .sidebar-option .material-symbols-outlined,
 .sidebar-option .fa-twitter {
     padding: 20px;
 }
-
+/*left text  */
 .sidebar-option h1 {
     font-weight: 800;
     font-size: 20px;
     margin-right: 20px;
 }
-
+/*changing clr wen touch  */
 .sidebar-option:hover {
     background-color: var(--twitter-background);
     border-radius: 30px;
@@ -50,7 +52,8 @@ body {
 .sidebar-option.active {
     color: var(--twitter-color);
 }
-
+/* 
+for twtr button */
 .button {
     width: 100%;
     background-color: var(--twitter-color);
@@ -73,7 +76,7 @@ body {
     min-width: fit-content;
     overflow-y: auto;
 }
-
+/*feed top  */
 .feedheader {
     position: sticky;
     top: 0;
@@ -96,7 +99,7 @@ body {
     -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
     scrollbar-width: none; /* Hide scrollbar for Firefox */
 }
-
+/*top box  */
 .tweetbox {
     padding-bottom: 10px;
     border-bottom: 8px solid var(--twitter-background);
@@ -107,13 +110,13 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/*topbox input text  */
 .tweetbox-input {
     display: flex;
     align-items: center;
     padding: 20px;
 }
-
+/*input img  */
 .tweetbox-input img {
     border-radius: 50%;
     height: 40px;
@@ -181,6 +184,7 @@ body {
     flex:1;
     padding: 10px;
 }
+/* avathar img */
 .post-user{
     padding: 20px;
 }
